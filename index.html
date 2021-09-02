@@ -5,32 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language application</title>
+    <link href="styles.css" rel="stylesheet"/>
     <style>
         textarea{
-            width:80%;
-            height:10vh;
+            width:50%;
+            height:20vh;
             display:block;
             margin:1rem;
-            padding:1rem;
+            padding:2rem;
+            margin:auto;
+            padding-bottom: 2rem;
+            margin-top: 1rem;
         }
 
         #output{
             border:1px solid black;
-            height:10vh;
-            width:80%;
+            height:20vh;
+            width:50%;
             margin:1rem;
-            padding:1rem;
+            padding:2rem;
+            display:block;
+            margin:auto;
+            margin-bottom: 1rem;
         }
     </style>
 </head>
 <body>
-    <h1>Talk Yoda!</h1>
+    <nav class="navigation">
+    <h1 class="header">Talk Yoda!</h1>
+    </nav>
     <textarea 
     id="txt-input"
     placeholder="Young Jedi Knight talk like Master Yoda.."></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger;">Output will come here</div>
+    <button class="button" id="btn-translate">Translate</button>
+    <div class="div" style="font-size: larger;">Output will come here</div>
     <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
 </body>
+<footer class="foot">
+    <div>Yoda was a legendary Jedi Master and stronger than most in his connection with the Force. Small in size but wise and powerful, he trained Jedi for over 800 years, playing integral roles in the Clone Wars, the instruction of Luke Skywalker, and unlocking the path to immortality.Try to talk like Master Yoda with our application</div>
+</footer>
 </html>
