@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
 body{
-    font-family: 'Lora', serif;
+    font-family: 'Comic Neue', cursive;
 }
 .div{
     text-align: center;
@@ -10,9 +10,10 @@ body{
 .button{
     padding:0.5rem;
     margin-top:1.5rem;
-    margin-left:47.5%;
-    font-style: italic;
-    border-radius: 1rem;
+    margin-left:30%;
+    font-family:'Comic Neue', cursive;
+    background-color:#FFBF00 ;
+    
 }
 .header{
     text-align: center;
@@ -20,8 +21,8 @@ body{
 .navigation{
     padding:1rem;
     background-color:#FFBF00;
-    opacity: 0.6;
-    padding:2rem;
+    opacity: 0.8;
+    padding:1rem;
     font-size:x-large;
     color: black;
 
@@ -29,8 +30,8 @@ body{
 .foot{
     padding:1rem;
     background-color:#FFBF00;
-    opacity: 0.6;
-    padding:2rem;
+    opacity: 0.8;
+    padding:rem;
     font-size:x-large;
     color: black;
     text-align: center;
